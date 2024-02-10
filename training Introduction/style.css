@@ -1,0 +1,36 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 600px;
+}
+h1 {
+  color: #333;
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  position: relative; /* Position relative for icon positioning */
+  padding-left: 20px; /* Add left padding for icon */
+  margin-top: 40px;
+  /* justify-content: space-evenly; */
+}
+p::before {
+  content: "\f054"; /* Unicode for arrow icon (you can change to any other icon) */
+  font-family: 'Font Awesome 5 Free'; /* Font Awesome font family */
+  font-weight: 900;
+  position: absolute; /* Position absolute for icon positioning */
+  left: 0; /* Position icon to the left */
+  top: 10%; /* Position icon vertically */
+  transform: translateY(-50%); /* Adjust vertical alignment */
+  color: #007bff; /* Color of the icon */
+}
